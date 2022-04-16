@@ -23,8 +23,9 @@
             </div>
             
             <fieldset>
-                <legend>
-                    <h2>Your Contact Information</h2>
+                <legend>Your Contact Information</legend>
+            <div>
+                                                
                     <label for="email">Your Email</label>
                     <input type="email" id="email" name="email">
                     <label for="address">Your Street Address</label>
@@ -37,13 +38,52 @@
                         </select>
                     <label for="zipcode">Your Zipcode</label>
                     <input type="text" id="zipcode" name="zipcode">
-                </legend>
+                </div>
             </fieldset>
-        
-            
             <fieldset>
-
-            </fieldset><!-- TODO: Make fieldset and legend -->
+                <legend>Choose Your Favorite Destination</legend>
+                <div>
+                   <label for="aruba">Aruba</label> 
+                   <input type="radio" value="aruba"name="destination">
+                </div>
+                <div>
+                    <label for="iceland">Iceland</label>
+                    <input type="radio" value="iceland"name="destination">
+                </div>
+                <div>
+                    <label for="japan">Japan</label>
+                    <input type="radio" value="japan" name="destination">
+                </div>
+                <div>
+                    <label for="new-zealand">New Zealand</label>
+                    <input type="radio" value="new-xealand" name="destination">
+                </div>
+                <div>
+                    <label for="tropics">Tropics</label>
+                    <input type="radio" value="tropics" name="destination">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your Favorite Color</legend>
+                <div>
+                    <label for="fcolor">Favorite Color</label>
+                    <input type="color" value="fcolor" name="fcolor">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Extras</legend>
+                <div>
+                    <label for="hottub">Hot Tub</label>
+                    <input type="checkbox" value="hjottub" name="extras">
+                </div>
+                <div>
+                    <label for="parking">Free Parking</label>
+                    <input type="checkbox" value="parking" name="extras">
+                </div>
+                   
+            </fieldset>
+            <input type="submit" value="Enter the Contest">
+            <!-- TODO: Make fieldset and legend -->
             <!-- Todo: Email Input -->
             <!-- Todo: Street Address Input -->
             <!-- Todo: City, State, and Zip Inputs -->
