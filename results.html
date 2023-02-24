@@ -53,7 +53,12 @@
         else if (choice == 'Reykjavik') {
             document.querySelector('.mini-image').src = 'assets/images/iceland.jpg'
         }
-
+        else if (choice == 'aruba') {
+            document.querySelector('.mini-image').src = 'assets/images/aruba.jpg'
+        }
+        else if (choice == 'tropics') {
+            document.querySelector('.mini-image').src = 'assets/images/tropics.jpg'
+        }
         // Change display based on whether they won or not
         if (winner) {
             document.getElementById('status-message').textContent = `Congrats, ${name}, YOU WON!`
